@@ -12,41 +12,51 @@ export default function NavBar() {
               width: "100%",
               display: "inline-flex",
               justifyContent: "center",
+              alignContent: "center",
               padding: "30px",
             }}
           >
-            <li style={{ paddingRight: "100px" }}>
+            <li
+              style={{
+                color: "white",
+                fontSize: "30px",
+                paddingRight: "150px",
+              }}
+            >
+              Natura Latina
+            </li>
+            <li style={{ padding: "10px", paddingRight: "100px" }}>
               <a
                 style={{
                   color: "white",
                   fontSize: "20px",
                   textDecoration: "none",
                 }}
-                href="#"
+                href="none"
               >
                 Inicio
               </a>
             </li>
-            <li style={{ paddingRight: "100px" }}>
+            <li style={{ padding: "10px", paddingRight: "100px" }}>
               <a
                 style={{
                   color: "white",
                   fontSize: "20px",
                   textDecoration: "none",
                 }}
-                href="#"
+                href="none"
               >
                 Tienda
               </a>
             </li>
-            <li style={{}}>
+            <li style={{ padding: "10px", paddingRight: "100px" }}>
               <a
                 style={{
                   color: "white",
                   fontSize: "20px",
                   textDecoration: "none",
                 }}
-                href="#"
+                href="none"
               >
                 Nosotros
               </a>
